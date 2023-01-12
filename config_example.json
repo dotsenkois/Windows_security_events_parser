@@ -1,0 +1,17 @@
+{
+    "input":{
+        "evtx_folder":"./",
+        "events_id":[]
+    },
+    "filter":{
+        "timezone":"+08:00"
+    },
+    "output":{
+        "elasticsearh":{
+            "host":"IPv4:port",
+            "proto":"https",
+            "user":"<username or api_key id>",
+            "password":"<password or api_key>"
+        }
+    }
+}
